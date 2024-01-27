@@ -42,18 +42,33 @@
     <!-- This is how your start your form -->
     <!-- create the form -->
     <form>
-        <label><h3>Log In</h3></label>
+        <label>
+            <h3>Log In</h3>
+        </label>
         <label>E-mail:</label>
         <input type="email" name="email" value="Enter E-mail"><br>
         <label>Password</label>
-        <input type="password" name="password" >
-        <input type="submit" value="Submit" >
+        <input type="password" name="password">
+        <input type="submit" value="Submit">
     </form>
-   <hr>
-   <h3>COLOR FORM</h3>
-   <form>
-    <input type="color" >
-   </form>
+    <hr>
+    <h3>COLOR FORM</h3>
+    <form>
+        <input type="color">
+    </form>
+    <hr>
+    <h4>Form with Action</h4>
+    <!-- Action focus on the address where the data enter will be sent/retrieve based on the method -->
+    <form action="index.html" method="get">
+        <p>Enter Text & Email and take me to Google:</p>
+        <label for="userInput">Enter Input</label>
+        <input type="text" name="textInput" id="userInput" placeholder="enter text" required>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- placeholder should be the go to choice when displaying a value in the text field. the "for" in label links the label with the input id. in form, action hold the address where the information enter will be sent, as for the method, its scope is to refer to where and how a particular function or action can be used within the form. It defines the boundaries or limits of that method's influence or applicability. required ensures the field must have value before submitting it -->
+
+
 </body>
 
 </html>

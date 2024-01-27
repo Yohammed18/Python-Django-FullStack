@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up - Assessment challenge</title>
+</head>
+
+<body>
+    <!-- title for the form -->
+    <h1>Course Sign Up Page</h1>
+    <!-- Instruction for required fields -->
+    <p><strong>Attention: </strong><em>First Name, Last Name, Password, and Email are required.</em></p>
+    <!-- create the form -->
+    <form action="https://www.google.com" method="get">
+        <!-- create 4 text field with required and placeholder attributes -->
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname" placeholder="First Name" required>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+
+        <p></p>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="name@emai.com" required>
+
+        <label for="pword">Password:</label>
+        <input type="password" name="pword" id="pword" required>
+
+        <!-- create a radio button option asking age -->
+        <p>Are you over the age of 18?</p>
+        <label for="y">Yes:</label>
+        <input type="radio" name="age" id="y" value="Yes">
+        <label for="n">No:</label>
+        <input type="radio" name="age" id="n" value="No">
+
+        <!-- create a drop down menu option for credit card of pay pal -->
+        <p>Do you have a Credit Card or PayPal</p>
+        <select name="payment" id="payment">
+            <option value="1">Credit Card</option>
+            <option value="2">PayPal</option>
+        </select>
+
+        <!-- create a sign up button -->
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+
+</html>

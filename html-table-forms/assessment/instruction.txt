@@ -1,0 +1,10 @@
+For the HTML (Hyper Text Markup Language) Level 2 Advance you will create a form Sign up from scratch. 
+
+You will have 4 text field 
+    - First & Last name, Email, and Password
+
+a radio button option asking you if you are 18
+
+a drop down menu asking you if you have a credit card of Paypal
+
+lastly, a submit button label "Sign Up."

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Feedback</title>
+</head>
+
+<body>
+    <h1>Hotel Feeback Form</h1>
+    <form action="" method="get">
+        <h2>How was your stay?</h2>
+        <label for="vgood">Very Good:</label>
+        <input type="radio" name="stay" id="vgood" value="Very Good">
+        <label for="good">Good: </label>
+        <input type="radio" name="stay" id="good" value="Good">
+        <label for="bad">Bad: </label>
+        <input type="radio" name="stay" id="bad" value="Bad">
+        <h3>How was your service?</h3>
+        <select name="stars">
+            <option value="Great">3</option>
+            <option value="Okay">2</option>
+            <option value="Bad">1</option>
+        </select>
+        <h3>Any other Feedback</h3>
+        <textarea name="feedbackTextArea" id="" cols="80" rows="8"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+    <!-- You can link radio button with the same name inside of a form -->
+</body>
+
+</html>
