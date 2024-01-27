@@ -1,0 +1,13 @@
+Use the following information to make a table about Country GDP
+source for data below
+
+https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)
+
+Make a table with HTML consisiting of three columns:
+Country Name
+Coutry Flag
+GDP (millions of USD)
+
+Your table will have 3 rows.
+Use the information below to attribute the cells correctly:
+
