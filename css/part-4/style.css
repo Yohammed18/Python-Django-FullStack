@@ -1,0 +1,19 @@
+/* <!-- In CSS, specificity refers to the set of rules that determine which styles are applied to an HTML element when there are conflicting style declarations. This segment focus on the hierarchy that organize the css tags --> */
+
+li{
+    color: red;
+}
+
+
+.topitems{
+    color: blue;
+}
+
+#two {
+    border: 3px solid black;
+    color: darkgreen;
+}
+
+/* 
+When it comes to css hierarchy, the id superseedes the class and the class superseedes the html tags
+*/

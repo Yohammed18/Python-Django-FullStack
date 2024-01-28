@@ -1,0 +1,71 @@
+/* Task 1 - set the body background to light blue */
+body{
+    background: lightblue;
+}
+
+/* Change the h1 to have 1 px solid black border */
+
+h1 {
+    border: 1px solid black;
+}
+
+/* Make all h2 elements the color purple */
+h2 {
+    color: purple;
+}
+
+/* Make all input boxes have a 2px solid dark der border */
+input {
+    border: 2px solid rgb(	139, 0, 0)
+}
+
+/* Give a ligth yellow background to all <p> elements inside div. Use HEX for the color*/
+div p {
+    background-color: #fffca5;
+}
+
+/* There is a textarea element with the id="textblock", give it a 5px solid gray border and a width of 800px and height of 400px */
+#textblock{
+    border: 5px solid gray;
+    width: 800px;
+    height: 400px;
+}
+
+/* There is a link to Google on the page. make the link red */
+a {
+    color: red;
+}
+
+/* Make elements with the id="itemone" have an overline text and be the color purpler*/
+#itemone {
+    color: purple;
+    text-decoration: overline;
+}
+
+/* Make the elements with class label "exit" have background of blue and a 4px dashed yellow border */
+.exit {
+    border: 4px dashed yellow;
+    background: blue;
+}
+
+/* BONUS CHALLENGE
+Can you figure out how to change the Google link color when it gets clicked
+
+In addition, links can be styled differently depending on what state they are in.
+
+The four links states are:
+
+a:link - a normal, unvisited link
+a:visited - a link the user has visited
+a:hover - a link when the user mouses over it
+a:active - a link the moment it is clicked
+*/
+
+a:visited {
+    color: blue;
+}
+
+
+a:hover {
+    color: green;
+}
