@@ -1,0 +1,38 @@
+h1, h2{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+
+table{
+    margin: auto;
+}
+
+td {
+    border: 6px solid white;
+    height: 400px;
+    width: 200px;
+}
+
+#td-1 {
+    background: #247ba0;
+    
+}
+
+#td-2 {
+    background: #70c1b3;
+}
+
+#td-3 {
+    background: #b2dbbf;
+}
+
+#td-4 {
+    background: #f3ffbd;
+}
+
+#td-5 {
+    background: #ff1654;
+}

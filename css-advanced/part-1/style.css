@@ -1,0 +1,48 @@
+h1{
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+      font-size: 50px;
+}
+
+p {
+    font-family: monospace;
+}
+
+body {
+    font-size: 12px;
+ 
+}
+
+/* em value is the dynamic way to size things in css 
+In CSS, the em unit is a relative unit of measurement. It is based on the computed value of the font-size of the element to which it is applied. One em is equal to the font size of the element.
+
+Here's how it works:
+
+If you set the font-size of an element to 16px, then 1em for that element would be 16px.
+If you set the font-size of a parent element to 20px and a child element to 1.5em, then the child element's font size would be 1.5 * 20px = 30px.
+
+1em = 16px
+2em = 32px
+
+
+once you define the px for the body, use em.
+*/
+
+#two{
+    font-size: 2.0em;
+}
+
+p{
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Text properties */
+h1 {
+    text-align: center;
+}
