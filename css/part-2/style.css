@@ -1,0 +1,24 @@
+/* background & background-color can be use interchangeably  */
+
+body {
+    background: url(https://t3.ftcdn.net/jpg/00/64/16/84/240_F_64168411_KE6FpZ0VhLElbPn7f6eztY7WmbvhpMWz.jpg);
+    background-size: auto;
+}
+
+div {
+    background-color: blue;
+    /* border color won't display unless you define the border width */
+    border-color: red;
+    /* the px will define the size of the border */
+    border-width: 5px;
+    border-style: double;
+}
+
+p {
+    color: yellow;
+}
+
+span {
+    background: red;
+    color: black;
+}

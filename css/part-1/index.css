@@ -1,0 +1,28 @@
+/* This is the comment section syntex used in css */
+
+/* 
+Here's the format of css
+
+selected tag {
+    property: value
+}
+
+for rgb stands for red, green, blue where as rgba stands for red, green, blue and alpha (focus on the opaque or transparent)
+*/
+
+
+h1 {
+    color: red;
+}
+
+li {
+    color: rgb(255, 97, 0);
+}
+/* Hexcode are the most popular choice when selecting color */
+p {
+    color: #2988D9;
+}
+
+h4 {
+    color: rgba(255, 97, 0, 0.5);
+}

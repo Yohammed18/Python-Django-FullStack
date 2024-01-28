@@ -1,0 +1,41 @@
+/* 
+in order to access class in css you want to use the . and the name of the class
+# sign in css will reference the unique id for each element
+*/
+
+.firstDiv {
+    color: blue;
+}
+
+.secondDiv {
+    color: red;
+}
+
+#singledout {
+    color: green;
+    text-decoration: line-through;
+}
+
+/* select the first ul after the first h3 */
+h3 + ul{
+    border: 4px dotted purple;
+}
+
+/* 
+The "*" in css overrides all elements attribute excluding id.
+
+*{
+    color: black;
+}
+*/
+
+/* descendent tag */
+li a {
+    color: red;
+}
+
+/* Selects every <a> element whose href attribute value contains the substring "google" */
+li a[href="http://www.google.com"]{
+    color: blue;
+    border: 5px solid orange;
+}
