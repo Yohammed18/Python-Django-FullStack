@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>DOM</title>
 </head>
 
@@ -28,6 +28,26 @@
         <li>document.querySelector() -- returns the first object matching the CSS style selector</li>
         <li>document.querySelectorAll() -- returns all objects matching the CSS style selector.</li>
     </ul>
+
+    <h2>
+        Let's talk about changing text, html content, and attributes with the DOM
+    </h2>
+    <p>
+        Here are the fundamentals
+    </p>
+    <ul>
+        <li>myvariable.textContent - this return just the text</li>
+        <li>myvariable.innerHTML - this returns the actual html</li>
+        <li>myvariable.getAttribute() - this all you to retrive an attribute</li>
+        <li>myvariable.setAttribute() - this allows you to set an attribute</li>
+
+    </ul>
+    <p id="facebook-p"><strong>I am another <em>header</em> with the special id. <a href="http://www.facebook.com">FACEBOOK LINK</a></strong></p>
+
+    <hr>
+    <button class="btn btn-primary">primary</button>
+    <br>
 </body>
 <script src="part1_color_changer.js"></script>
+
 </html>

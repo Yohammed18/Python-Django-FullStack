@@ -17,4 +17,20 @@ function getRandomColor() {
     header.style.color = colorInput
   }
 
-  setInterval("changeHeaderColor()", 500)
+  setInterval("changeHeaderColor()", 2000)
+
+
+  //Event listener
+var headone = document.querySelector("h1");
+
+console.log("Connected")
+
+headone.addEventListener('mouseover', function(){
+    headone.textContent = "Mouse over"
+    headone.style.color = 'red'
+})
+
+headone.addEventListener('mouseout', function(){
+    headone.textContent = "This is header"
+
+})
