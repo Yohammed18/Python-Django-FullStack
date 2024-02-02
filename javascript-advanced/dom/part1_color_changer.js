@@ -21,7 +21,7 @@ function getRandomColor() {
 
 
   //Event listener
-var headone = document.querySelector("h1");
+var headone = document.querySelector("#btn");
 
 console.log("Connected")
 
@@ -33,4 +33,8 @@ headone.addEventListener('mouseover', function(){
 headone.addEventListener('mouseout', function(){
     headone.textContent = "This is header"
 
+})
+
+headone.addEventListener('click', function(){
+   console.log("YOU CAME OUT!!!")
 })
