@@ -3,23 +3,29 @@ console.log('Tic Tac Toe');
 //use event listener when click on the board.
 
 var ticTac = document.querySelectorAll('td');
+var buttonId = document.getElementById('btnId');
 
-for( let tac of ticTac){
-    tac.addEventListener('click', function(){
-        if(tac.innerText === ''){
-            tac.innerText = 'X'
-        } else if(tac.innerText === 'X'){
-            tac.innerText = 'O'
-        }else if(tac.innerText === 'O'){
-            tac.innerText = 'X'
-        }
-    })
+// create functions to clear board and add Xs & Os
+function clearBoard(){
+    for(let tac of ticTac){
+        tac.textContent = ""
+    }
 }
 
-//handle reset
-var buttonId = document.getElementById('btnId');
-buttonId.addEventListener('click', function(){
-    for(let tac of ticTac){
-        tac.innerText = ""
-    }
-})
+function changeMarker(){
+        if(this.innerText === ''){
+            this.innerText = 'X'
+        } else if(this.innerText === 'X'){
+            this.innerText = 'O'
+        }else if(this.innerText === 'O'){
+            this.innerText = 'X'
+        }
+
+}
+
+
+buttonId.addEventListener('click', clearBoard)
+
+for( let tac of ticTac){
+    tac.addEventListener('click', changeMarker)
+}
