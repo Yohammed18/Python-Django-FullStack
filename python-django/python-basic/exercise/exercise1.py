@@ -5,7 +5,7 @@ print(s[0])
 # 'o'
 print(s[-1])
 # 'djan'
-print(s[0:4])
+print(s[:4])
 # 'jan'
 print(s[1:4])
 # 'go'
@@ -13,6 +13,7 @@ print(s[-2::])
 
 # Bonus: Use indexing to reverse the string
 reverse_s = s[::-1]
+print(reverse_s)
 
 
 # given this nested list
