@@ -33,7 +33,7 @@ d2 = {'k1':{'k2':'hello'}}
 print(d2['k1']['k2'])
 
 d3 = {'k1':[{'nest_key':['this is deep', ['hello']]}]}
-print(d3['k1'][0]['nest_key'][1])
+print(d3['k1'][0]['nest_key'][1][0])
 
 #  use a set to find the unique values of a list below:
 mylist = [1,1,1,1,1,1,2,2,2,2,2,3,3,3,3,3,3]
