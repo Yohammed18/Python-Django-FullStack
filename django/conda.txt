@@ -1,0 +1,15 @@
+Conda Documentation page = https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment
+conda create --name "envName" django = create virtual environment with a specific package (in this case we are using django)
+
+
+conda info --envs = list all the environments
+conda env list = list all the environments
+conda activate 'serverName' = activate server
+conda deactivate = deactivate server
+
+
+activate your environment and install django via the command
+conda install django or pip install django
+
+you will ue the command line tool "django-admin" to create your project
+django-admin startproject 'nameOfTheProject'
