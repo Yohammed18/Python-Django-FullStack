@@ -13,3 +13,13 @@ conda install django or pip install django
 
 you will ue the command line tool "django-admin" to create your project
 django-admin startproject 'nameOfTheProject'
+
+This command will start your web server and provide you a url
+use python manage.py runserver
+
+a Django project is the entire web application that can contain multiple applications, while a Django application is a modular component within a project that focuses on a specific feature or functionality. The separation allows for better organization, reusability, and maintenance of code in large-scale projects.
+
+create djago application by using the following command
+python manage.py startapp 'nameOfTheApplication'
+
+'manage.py' is a command-line utility that comes with Django and is used for various administrative tasks related to a Django project. It simplifies common development tasks and interactions with your Django project. When you create a new Django project using the django-admin startproject command, it includes a manage.py file in the project's root directory.
