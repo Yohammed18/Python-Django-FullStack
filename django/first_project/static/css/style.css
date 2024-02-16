@@ -1,0 +1,8 @@
+h1, img{
+    color: rgb(235, 159, 20);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
