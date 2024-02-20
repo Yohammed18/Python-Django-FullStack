@@ -13,13 +13,22 @@
         <div class="jumbotron">
             <h1>User Form</h1>
             <h4>Sign up here</h4>
-            <form method="POST">
+            <form id="myForm" method="POST">
                 {{ form.as_p}}
                 {% csrf_token %}
                 <input type="submit" class="btn btn-primary" value="Submit">
+                <button type="button" class="btn btn-success" onclick="clearForm()">Clear</button>
             </form>
         </div>
     </div>
 </body>
+<script>
+    function clearForm() {
+        console.log('Log: Clear Field')
+        var form = document.getElementById("myForm");
+        form.reset();
+        return false; // Prevent form submission
+    }
+</script>
 
 </html>

@@ -26,7 +26,7 @@ def users_form(request):
 
         if form.is_valid():
             form.save(commit=True)
-            return index(request)
+            return users(request)
         else:
             print("ERROR FORM INVALID")
 
