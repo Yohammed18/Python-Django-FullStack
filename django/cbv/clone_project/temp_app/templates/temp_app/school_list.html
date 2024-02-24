@@ -11,4 +11,13 @@
         {% endfor %}
     </ol>
 </div>
+
+<!-- Create a link that will direct to the next -->
+<a href="{% url 'temp_app:create' %}">
+    <input type="submit" value="Add School" class="btn btn-info">
+</a>
+<a href="{% url 'temp_app:create_student' %}">
+    <input type="submit" value="Add Student" class="btn btn-success">
+</a>
+
 {% endblock %}
