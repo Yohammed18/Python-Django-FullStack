@@ -21,7 +21,7 @@ from temp_app import views
 
 urlpatterns = [
     url('admin/', admin.site.urls),
-    url(r'^$', views.IndexView.as_view()),
+    url(r'^$', views.IndexView.as_view(),name='index'),
     url(r'^temp_app/',include('temp_app.urls', namespace='temp_app'))
 
     # returning a base class view
