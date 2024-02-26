@@ -4,7 +4,6 @@ from . import models
 from django.urls import reverse_lazy
 from django.views.generic import (View, TemplateView, ListView, DetailView, CreateView, UpdateView, DeleteView)
 from django import forms
-from temp_app.forms import StudentForm 
 # from django.http import HttpResponse
 
 
@@ -57,8 +56,9 @@ class SchoolDeleteView(DeleteView):
 
 # add student
 class StudentCreateView(CreateView):
+    fields = ('name','age', 'School')
     model = models.Student
-    form_class = StudentForm
+    # form_class = StudentForm
     template_name = 'temp_app/create_student.html'
     success_url = reverse_lazy("temp_app:list")
 
