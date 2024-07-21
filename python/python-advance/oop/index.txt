@@ -1,0 +1,1 @@
+Object-Oriented Programming (OOP) in Python allows you to structure code using classes and objects. Key concepts include encapsulation, inheritance, and polymorphism. Here's a concise overview:
